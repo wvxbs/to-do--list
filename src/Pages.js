@@ -1,12 +1,14 @@
-import React from "react";
+import React from "react"
+import { BrowserRouter, Routes, Route} from "react-router-dom"
+import Home from "./pages/Home"
 
 const Pages = () => {
     return (
-        <div className="content">
-            <h1 className="title">
-                oooopa
-            </h1>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" exact={true} element={<Home />} />
+            </Routes>
+        </BrowserRouter>
     )
 }
 
