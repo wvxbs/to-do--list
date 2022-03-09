@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Pages from './Pages'
+import './styles/index.sass'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
