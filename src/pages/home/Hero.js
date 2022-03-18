@@ -1,20 +1,28 @@
 import React from 'react';
+import TaskOverview from './hero/TaskOverview';
 import Info from './hero/Info';
 
 const Hero = props => {
     return (
-        <div class="hero is-white is-fullheight">
+        <div class="hero is-white is-fullheight-with-navbar">
             <div class="hero-body">
-                <div class="columns">
-                    <div class="column">
-                        <div>
-                            <p class="title">
-                                Olá {props.name}
-                            </p>
+                <div className="container">
+                    <div class="columns">
+                        <div class="column">
+                            <div>
+                                <p class="title is-bold">
+                                    Olá {props.name}!
+                                </p>
+                            </div>
+                            <div>
+                                <Info 
+                                    tasks={0}
+                                />
+                            </div>
                         </div>
-                        <div>
-                            <Info 
-                                tasks={7}
+                        <div className="column">
+                            <TaskOverview
+                                tasks={0}
                             />
                         </div>
                     </div>

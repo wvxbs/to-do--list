@@ -2,7 +2,7 @@ import React from 'react'
 
 const TaskOverview = props => {
 
-    if (props.tasks === 0 ) {
+    if (props.tasks === 0) {
         return (
             <div>
                 <h1>

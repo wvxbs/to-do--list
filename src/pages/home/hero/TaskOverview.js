@@ -1,23 +1,17 @@
 import React from 'react'
+import NoPendingTasks from './taskoverview/NoPendingTasks'
+import PendingTasks from './taskoverview/PendingTasks'
 
 const TaskOverview = props => {
 
     if (props.tasks === 0 ) {
         return (
-            <div>
-                <h1>
-                    Você não tem tarefas pendentes
-                </h1>
-            </div>
+            <NoPendingTasks />
         ) 
     }
     else {
         return (
-            <div>
-                <h1>
-                    Você tem {props.tasks} tarefas pendentes
-                </h1>
-            </div>
+            <PendingTasks />
         )
     }
 }

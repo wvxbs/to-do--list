@@ -13,7 +13,7 @@ const Header = props => {
             <div className="navbar-end">
                 <div className="navbar-item">
                     <button className="button is-white">
-                        teste
+                        Listas
                     </button>   
                 </div>
             </div>
