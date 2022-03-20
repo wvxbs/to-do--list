@@ -2,14 +2,14 @@ import React from "react"
 
 const NoPendingTasks = props => {
     return (
-        <div class="card">
-            <div class="card-content">
-                <p class="title">
+        <div className="card">
+            <div className="card-content">
+                <p className="title">
                     Sem Tarefas Pendentes
                 </p>
             </div>
-            <footer class="card-footer">
-                <p class="card-footer-item">
+            <footer className="card-footer">
+                <p className="card-footer-item">
                     <span>
                         Adicionar Mais
                     </span>

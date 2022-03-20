@@ -4,13 +4,13 @@ import Info from './hero/Info';
 
 const Hero = props => {
     return (
-        <div class="hero is-white is-fullheight-with-navbar">
-            <div class="hero-body">
+        <div className="hero is-white is-fullheight-with-navbar">
+            <div className="hero-body">
                 <div className="container">
-                    <div class="columns">
-                        <div class="column">
+                    <div className="columns">
+                        <div className="column">
                             <div>
-                                <p class="title is-bold">
+                                <p className="title is-bold">
                                     Olá {props.name}!
                                 </p>
                             </div>
