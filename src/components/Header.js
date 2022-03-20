@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./header/Button";
 
 const Header = props => {
     return (
@@ -12,9 +13,7 @@ const Header = props => {
             </div>
             <div className="navbar-end">
                 <div className="navbar-item">
-                    <button className="button is-white">
-                        Listas
-                    </button>   
+                    <Button />
                 </div>
             </div>
         </div>
