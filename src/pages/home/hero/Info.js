@@ -11,15 +11,25 @@ const TaskOverview = props => {
             </div>
         ) 
     }
-    else {
+
+    if(props.Tasks === 1) {
         return (
             <div>
                 <h1>
-                    Você tem {props.Tasks} tarefas pendentes
+                    Você tem uma tarefa pendente
                 </h1>
             </div>
         )
     }
+
+    return (
+        <div>
+            <h1>
+                Você tem {props.Tasks} tarefas pendentes
+            </h1>
+        </div>
+    )
+
 }
 
 export default TaskOverview
