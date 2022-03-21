@@ -16,13 +16,13 @@ const Hero = props => {
                             </div>
                             <div>
                                 <Info 
-                                    tasks={0}
+                                    Tasks={0}
                                 />
                             </div>
                         </div>
                         <div className="column">
                             <TaskOverview
-                                tasks={0}
+                                Tasks={0}
                             />
                         </div>
                     </div>
