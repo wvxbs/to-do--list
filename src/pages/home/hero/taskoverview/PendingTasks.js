@@ -13,7 +13,17 @@ const PendingTasks = props => {
             "title": "Levar o lixo",
             "priority": "!!",
             "limitDate" : "23/03/2022"
-        } 
+        },
+        {
+            "title": "Cortar o cabelo",
+            "priority": "!!",
+            "limitDate" : "23/03/2022"
+        },
+        {
+            "title": "Limpar o teclado",
+            "priority": "!!",
+            "limitDate" : "23/03/2022"
+        }
     ]
 
     const RenderPendingTasks = Tasks => {
