@@ -13,7 +13,7 @@ const Hero = props => {
                     <div className="columns">
                         <div className="column">
                             <div>
-                                <p className="title is-bold">
+                                <p className="title has-text-weight-bold is-1">
                                     Olá {props.name}!
                                 </p>
                             </div>

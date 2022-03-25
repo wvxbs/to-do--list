@@ -39,6 +39,11 @@ const PendingTasks = props => {
 
     return (
         <div className="card">
+            <div className="card-header">
+                <h1 className="card-header-title">
+                    Tarefas importantes
+                </h1>
+            </div>
             <div className="card-content">
                 <div className="content">
                     {RenderPendingTasks(PendingTasks)}
