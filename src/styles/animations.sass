@@ -1,0 +1,30 @@
+$pulse-background: #fef8ff 
+
+body 
+    animation: 1s ease-in-out
+
+.pulse
+     animation: 2s ease pulse
+
+@keyframes pulse 
+  0% 
+    background: $pulse-background
+    transform: scale(1)
+  
+  
+  25% 
+    background: $pulse-background
+    transform: scale(1.015)
+  
+  
+  50% 
+    background: $pulse-background
+    transform: scale(1)
+
+  75% 
+    background: $pulse-background
+    transform: scale(1.015)
+
+  100% 
+    background: $pulse-background
+    transform: scale(1)

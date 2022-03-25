@@ -4,7 +4,7 @@ import PendingTasks from './taskoverview/PendingTasks'
 
 const TaskOverview = props => {
 
-    if (props.tasks === 0 ) {
+    if (props.Tasks === 0 ) {
         return (
             <NoPendingTasks />
         ) 
