@@ -38,7 +38,7 @@ const PendingTasks = props => {
     }
 
     return (
-        <div className="card">
+        <div className="card pulse">
             <div className="card-header">
                 <h1 className="card-header-title">
                     Tarefas importantes
