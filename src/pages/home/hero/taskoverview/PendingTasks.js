@@ -6,7 +6,7 @@ const PendingTasks = props => {
     let PendingTasks = [
         {
             "title": "Fazer a janta",
-            "priority": "!!!!",
+            "priority": "!!!",
             "limitDate" : "23/03/2022"
         },
         {
@@ -21,7 +21,7 @@ const PendingTasks = props => {
         },
         {
             "title": "Limpar o teclado",
-            "priority": "!!",
+            "priority": "!",
             "limitDate" : "23/03/2022"
         }
     ]
