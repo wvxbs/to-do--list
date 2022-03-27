@@ -3,13 +3,13 @@ const GetPriorityColor = (Priority) => {
         return "white"
 
     if (Priority === "!") 
-        return "is-success"
+        return "has-text-black"
     
-    if(Priority == "!!")
-        return "is-danger"
+    if(Priority === "!!")
+        return "has-text-warning"
 
-    if(Priority == "!!!")
-        return "is-danger"
+    if(Priority === "!!!")
+        return "has-text-danger"
 }
 
 export default GetPriorityColor
