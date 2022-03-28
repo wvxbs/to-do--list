@@ -1,5 +1,5 @@
 import React from "react"
-import GetPriorityColor from "../../../../../components/PriorityColor"
+import GetPriorityColor from "../../../../../utils/GetPriorityColor"
 
 const Task = props => (
     <div className="media hover">
