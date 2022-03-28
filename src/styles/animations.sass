@@ -2,7 +2,10 @@ body
     animation: 1s ease-in-out
 
 .pulse
-     animation: 2s ease pulse
+     animation: 2s ease-in-out pulse
+
+.hover:hover
+  animation: 1s ease-in-out hover
 
 @keyframes pulse 
   0% 
@@ -19,3 +22,7 @@ body
 
   100% 
     transform: scale(1)
+
+@keyframes hover
+  0%
+    background: #F5F5F5    

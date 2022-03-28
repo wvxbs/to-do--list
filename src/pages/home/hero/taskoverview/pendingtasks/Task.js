@@ -2,7 +2,7 @@ import React from "react"
 import GetPriorityColor from "../../../../../components/PriorityColor"
 
 const Task = props => (
-    <div className="media">
+    <div className="media hover">
         <div className="media-content">
             <div className="content">
                 <div>
