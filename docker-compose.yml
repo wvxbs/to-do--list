@@ -12,3 +12,6 @@ services:
       - 3000:3000
     volumes:
       - .:/app
+
+  api:
+    image: wvxbs/agendha-rest:latest
